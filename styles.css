@@ -2,18 +2,24 @@
 body{
 	background-color:#CF90FF;
 }
-.buttons{
+#buttons{
 	display:flex;
 	justify-content: center;
-/* 	align-items: center; */
+	align-items: center;
 /* 	justify-items:center; */
-	align-content:enter;
+/* 	align-content:enter; */
+	height:100vh;
 }
 .btn{
 	background-color:#662d91;
 	color:white;
 	padding:15px;
 	margin:6px;
+	mouse:pointer;
+	
+}
+.btn:hover{
+	cursor:pointer;
 }
 .stop{
 	background-color:#662d91;
