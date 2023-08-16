@@ -3,9 +3,9 @@
 
 var sound = new Audio();
   //  <audio src="./test.mp3" controls></audio>
-function playSound(fileName){
+function playSound(){
 	// stopSound();
-	sound.src = 'sounds/' + fileName ;
+	sound.src = "https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" ;
 	sound.play();
 }
 
