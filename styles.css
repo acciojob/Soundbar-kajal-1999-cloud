@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#CF90FF;
+}
+.buttons{
+	display:flex;
+	justify-content: center;
+/* 	align-items: center; */
+/* 	justify-items:center; */
+	align-content:enter;
+}
+.btn{
+	background-color:#662d91;
+	color:white;
+	padding:15px;
+	margin:6px;
+}
+.stop{
+	background-color:#662d91;
+	color:white;
+	padding:15px;
+/* 	margin:px; */
+	
+}
